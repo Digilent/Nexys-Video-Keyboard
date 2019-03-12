@@ -3,11 +3,11 @@ Nexys Video Keyboard Demo
 
 Description
 --------------
-This project is a Vivado demo using the Nexys Video's USB HID Host port and USB UART bridge, written in Verilog. When programmed onto the board, whenever the user presses a key on a keyboard connected to the USB HID port (J15, labeled "USB HOST"), a scan code is sent to the Basys3 through a PS/2 interface. This scan code is read and transmitted to the computer via the USB-UART bridge. When the key is released, a scan code of 0xF0XX is transmitted, indicating that the key with PS/2 code "XX" has been released.
+This project is a Vivado demo using the Nexys Video's USB HID Host port and USB UART bridge, written in Verilog. When programmed onto the board, whenever the user presses a key on a keyboard connected to the USB HID port (J15, labeled "USB HOST"), a scan code is sent to the Nexys Video through a PS/2 interface. This scan code is read and transmitted to the computer via the USB-UART bridge. When the key is released, a scan code of 0xF0XX is transmitted, indicating that the key with PS/2 code "XX" has been released.
 
 To use this demo, the Nexys Video must be connected to a serial terminal on the computer it is connected to over the MicroUSB cable. For more information on how to set up and use a serial terminal, such as Tera Term or PuTTY, refer to [this tutorial](https://reference.digilentinc.com/learn/programmable-logic/tutorials/tera-term).
 
-For example: If the user presses the space bar on a keyboard connected to the Basys 3, the scan code "29" will be sent to the computer.  When the space bar is released, "F0 29" will be printed.
+For example: If the user presses the space bar on a keyboard connected to the Nexys Video, the scan code "29" will be sent to the computer.  When the space bar is released, "F0 29" will be printed.
 
 Requirements
 --------------
@@ -41,4 +41,4 @@ Additional Notes
 --------------
 For more information on how this project is version controlled, refer to the [Digilent Vivado Scripts Repository](https://github.com/digilent/digilent-vivado-scripts)
 
-
+<!--- 03/12/2019(ArtVVB): Validated in hardware with Vivado 2018.2 --->
