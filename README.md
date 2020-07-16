@@ -26,7 +26,7 @@ Demo Setup
 5. Open a serial terminal emulator (such as TeraTerm) and connect it to the Nexys Video's serial port, using a baud rate of 9600.
 6. In the green bar at the top of the window, click **Open target**. Select **Auto connect** from the drop down menu.
 7. In the green bar at the top of the window, click **Program device**.
-8. In the "Program Device" Wizard, enter "\<archive extracted location\>Nexys-Video-Keyboard/Nexys-Video-Keyboard.runs/impl_1/top.bit" into the "Bitstream file" field. Then click **Program**.
+8. In the "Program Device" Wizard, enter "\<archive extracted location\>/Nexys-Video-Keyboard/Nexys-Video-Keyboard.runs/impl_1/top.bit" into the "Bitstream file" field. Then click **Program**.
 9. The demo will now be programmed onto the Nexys Video. See the Introduction section of this README for a description of how this demo works.
 
 Next Steps
