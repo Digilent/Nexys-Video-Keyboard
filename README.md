@@ -20,13 +20,13 @@ Requirements
 Demo Setup
 --------------
 1. Download and extract the most recent release ZIP archive from this repository's [Releases Page](https://github.com/Digilent/Nexys-Video-Keyboard/releases).
-2. Open the project in Vivado 2018.2 by double clicking on the included XPR file found at "\<archive extracted location\>/vivado_proj/Nexys-Video-Keyboard.xpr".
+2. Open the project in Vivado 2020.1 by double clicking on the included XPR file found at "\<archive extracted location\>/Nexys-Video-Keyboard/Nexys-Video-Keyboard.xpr".
 3. In the Flow Navigator panel on the left side of the Vivado window, click **Open Hardware Manager**.
 4. Plug a Nexys Video into the computer running Vivado using a MicroUSB cable.
 5. Open a serial terminal emulator (such as TeraTerm) and connect it to the Nexys Video's serial port, using a baud rate of 9600.
 6. In the green bar at the top of the window, click **Open target**. Select **Auto connect** from the drop down menu.
 7. In the green bar at the top of the window, click **Program device**.
-8. In the "Program Device" Wizard, enter "\<archive extracted location\>vivado_proj/Nexys-Video-Keyboard.runs/impl_1/top.bit" into the "Bitstream file" field. Then click **Program**.
+8. In the "Program Device" Wizard, enter "\<archive extracted location\>Nexys-Video-Keyboard/Nexys-Video-Keyboard.runs/impl_1/top.bit" into the "Bitstream file" field. Then click **Program**.
 9. The demo will now be programmed onto the Nexys Video. See the Introduction section of this README for a description of how this demo works.
 
 Next Steps
@@ -41,4 +41,5 @@ Additional Notes
 --------------
 For more information on how this project is version controlled, refer to the [Digilent Vivado Scripts Repository](https://github.com/digilent/digilent-vivado-scripts)
 
+<!--- 07/16/2020(bbardi): Validated in hardware with Vivado 2020.1 --->
 <!--- 03/12/2019(ArtVVB): Validated in hardware with Vivado 2018.2 --->
